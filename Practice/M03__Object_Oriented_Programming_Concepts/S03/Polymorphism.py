@@ -1,3 +1,6 @@
+
+
+'''
 class Animal:
     def sound(self):
         print("Animal makes Sound")
@@ -8,3 +11,10 @@ class Cat(Animal):
     def sound(self):
         print("Meow-Meow")
         super().sound()
+
+'''
+
+class Animal:
+    def __init__(self):
+        print("meowww")
+cat=Animal()
